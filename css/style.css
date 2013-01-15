@@ -146,10 +146,10 @@ body {
 	width:94.6%; 
 	border-radius:3px;
 }
-.page_entry {margin-bottom:20px;}
+.page_entry {margin-bottom:30px;}
 
 
-.page_entry .title {
+.page_entry h3 {
 	font-weight: bold; 
 	font-size:16px; 
 	font-style:italic; 
@@ -157,6 +157,7 @@ body {
 }
 
 .entry_content {padding-left: 15px; border-left: 1px dotted #848484;}
+.entry_content img {height:100px; width:500px; display:block;}
 
 .side-nav {border-right:1px dotted black;}
 
