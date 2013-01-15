@@ -5,8 +5,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 }
 
 address {
-    margin-top: 0.5em;
-    padding-top: 0.5em;
+    margin: 20px 0;
     border-top: thin dotted }
 
 a {
@@ -375,12 +374,12 @@ body {
 .single_post a{
 	text-decoration: none;
 }
-.single_post h2 {
+.single_post h1 {
 	margin-bottom: 10px;
 	line-height: 28px;
 	color: black;
 	font-family: Oswald, "helvetica Neue", Arial;
-	font-size: 3em;	
+	font-size: 26px;	
 }
 
 .single_post_content{
@@ -400,9 +399,8 @@ body {
 	width:94.6%; 
 	border-radius:3px;
 }
-.page_entry {}
+.page_entry {margin-bottom:20px;}
 
-.entry_info{}
 
 .page_entry .title {
 	font-weight: bold; 
@@ -411,107 +409,13 @@ body {
 	font-family: "Helvetica Neue", Arial;
 }
 
-.entry_info .description {}
-
-.entry_info .metadata {font-size: 10px; color: #848484;}
-
 .entry_content {padding-left: 15px; border-left: 1px dotted #848484;}
 
-/* Share Icons */
+.side-nav {border-right:1px dotted black;}
 
-#share {margin-bottom:10px;padding-bottom: 5px;border-bottom: 1px dotted black;}
+.side-nav ul ul {margin-left:15px;}
 
-#vimeo {display: inline-block; width: 32px; height: 32px; background-position: 0 0; background: url("/wp-content/uploads/icons/vimeoIcon.jpg") no-repeat 0 0}
-#vimeo:hover {background-position: 0 -32px}
-#vimeo span {position: absolute; top: -999em;}
-
-#youtube {display: inline-block; width: 32px; height: 32px; background-position: 0 0; background: url("/wp-content/uploads/icons/youtubeIcon.jpg") no-repeat 0 0}
-#youtube:hover {background-position: 0 -32px}
-#youtube span {position: absolute; top: -999em;}
-
-#twitter {display: inline-block; width: 32px; height: 32px; background-position: 0 0; background: url("/wp-content/uploads/icons/twitterIcon.jpg") no-repeat 0 0}
-#twitter:hover {background-position: 0 -32px}
-#twitter span {position: absolute; top: -999em;}
-
-#soundcloud {display: inline-block; width: 32px; height: 32px; background-position: 0 0; background: url("/wp-content/uploads/icons/soundCloudIcon.jpg") no-repeat 0 0}
-#soundcloud:hover {background-position: 0 -32px}
-#soundcloud span {position: absolute; top: -999em;}
-
-#rss {display: inline-block; width: 32px; height: 32px; background-position: 0 0; background: url("/wp-content/uploads/icons/rssIcon.jpg") no-repeat 0 0}
-#rss:hover {background-position: 0 -32px}
-#rss span {position: absolute; top: -999em;}
-
-/* Social Icons */
-
-#social {display: inline-block; float:right;}
-
-.facebook {
-	background: black; 
-	border-radius: 24px;
-	-webkit-transition: 0.2s ease-in-out;
-	-moz-transition: 0.2s ease-in-out;
-	-o-transition: 0.2s ease-in-out;
-}
-.facebook:hover {background: #1D4088;}
-
-.twitter {
-	background: black; 
-	border-radius: 24px; 
-	-webkit-transition: 0.2s ease-in-out;
-	-moz-transition: 0.2s ease-in-out;
-	-o-transition: 0.2s ease-in-out;
-}
-.twitter:hover {background: #33CCFF;}
-
-.rss {
-	background: black; 
-	border-radius: 24px; 
-	-webkit-transition: 0.2s ease-in-out;
-	-moz-transition: 0.2s ease-in-out;
-	-o-transition: 0.2s ease-in-out;
-}
-.rss:hover {background: #F46523;}
-
-.soundcloud {
-	background: black; 
-	border-radius: 24px; 
-	-webkit-transition: 0.2s ease-in-out;
-	-moz-transition: 0.2s ease-in-out;
-	-o-transition: 0.2s ease-in-out;
-}
-.soundcloud:hover {background: #FF3500;}
-
-.youtube {
-	background: black; 
-	border-radius: 24px; 
-	-webkit-transition: 0.2s ease-in-out;
-	-moz-transition: 0.2s ease-in-out;
-	-o-transition: 0.2s ease-in-out;
-}
-.youtube:hover {background: #C4302B;}
-
-.search_go {
-	float:right;
-	margin-bottom: 7px;
-	background: black; 
-	border-radius: 24px; 
-	-webkit-transition: 0.2s ease-in-out;
-	-moz-transition: 0.2s ease-in-out;
-	-o-transition: 0.2s ease-in-out;
-}
-.search_go:hover {background: #05B339;}
-
-/* Inline social icons on the homepage */
-.inline{
-  list-style: none;
-  background:rgb(245, 245, 245);
-  border-radius:5px;
-  padding: 5px 5px 0 5px;
-}
-.inline li{
-  display:inline-block;
-  width:80px;
-}
+.content-block {margin-bottom:20px; padding-bottom:10px; border-bottom:1px dotted black;}
 
 /* Styling the twitter homepage feed */
 
@@ -648,31 +552,6 @@ body {
 
 
 
-
-font-family: 'Signika Negative', sans-serif;
-font-family: 'Magra', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif
-
-font-family: 'Cabin Condensed', sans-serif;
-font-family: 'Share', cursive;
-font-family: 'Asul', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Nunito', sans-serif;
-
-
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Gudea', sans-serif;
-font-family: 'Averia Serif Libre', cursive;
-font-family: 'Asap', sans-serif;
-font-family: 'Play', sans-serif;
-
-font-family: 'Puritan', sans-serif;
-font-family: 'Gudea', sans-serif;
-font-family: 'Exo', sans-serif;
-font-family: 'Quantico', sans-serif;
-font-family: 'Maven Pro', sans-serif;
-font-family: 'PT Sans Caption', sans-serif;
-
 /* Generic stuff taken from modicus-remix */
 
 .post h3p, .post h3 a {
@@ -758,12 +637,15 @@ p a:hover {
    -o-transition:color .2s ease-in;
    transition:color .2s ease-in;
 }
+
+p.indent{text-indent:23px;}
+
 .strong {
 	font-weight:bold;
 }
 
-.right {float: right;}
-.left {float: left;}
+.right {float: right !important;}
+.left {float: left !important;}
 
 /*============================================================*/
 /*
